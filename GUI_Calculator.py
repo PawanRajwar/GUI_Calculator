@@ -31,4 +31,21 @@ class CalculatorApp:
         # Create UI components
         self.create_widgets()    
     
+    def create_widgets(self):
+        # Display area
+        self.display_frame = tk.Frame(self.root, bg=self.current_bg)
+        self.display_frame.pack(expand=False, fill="both", padx=10, pady=(10, 0))
+        
+        self.display = tk.Label(self.display_frame, text="", anchor='e', font=("Arial", 20), bg=self.current_bg, fg=self.current_fg, height=2)
+        self.display.pack(fill="both")
+        
+        # History area
+        self.history_frame = tk.Frame(self.root, bg=self.current_bg)
+        self.history_frame.pack(fill="both", padx=10, pady=(5, 0))
+        
+        self.history_label = tk.Label(self.history_frame, text="History", font=("Arial", 10), bg=self.current_bg, fg=self.current_fg)
+        self.history_label.pack(anchor="w")
+        
+        self.history_box = tk.Listbox(self.history_frame, font=("Arial", 10), bg=self.current_bg, fg=self.current_fg, height=5, bd=0, highlightthickness=0)
+        self.history_box.pack(fill="both")
 
