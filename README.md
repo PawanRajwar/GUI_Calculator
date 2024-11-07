@@ -16,3 +16,10 @@ This makes it suitable for everyday calculations, while the code provides a soli
 
 - Also includes support for decimal points and parentheses for more complex calculations.
 
+### 2. Dark Mode Toggle:
+- A toggle button allows users to switch between light and dark modes.
+
+- Dark mode provides a pure black background for a comfortable, eye-friendly experience in low-light environments.
+
+- All components, including buttons, background, and margins, adapt to the selected mode for consistency.
+
