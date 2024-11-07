@@ -9,5 +9,10 @@ features to enhance usability and accessibility.
 The GUI design prioritizes simplicity and ease of use, with carefully selected color schemes and intuitive button layout.
 This makes it suitable for everyday calculations, while the code provides a solid example of using tkinter to create customizable applications with advanced features.
 
+## Features
 
+### 1. Basic Calculator Functions:
+- Supports fundamental operations: addition, subtraction, multiplication, and division.
+
+- Also includes support for decimal points and parentheses for more complex calculations.
 
