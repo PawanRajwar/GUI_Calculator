@@ -48,4 +48,13 @@ class CalculatorApp:
         
         self.history_box = tk.Listbox(self.history_frame, font=("Arial", 10), bg=self.current_bg, fg=self.current_fg, height=5, bd=0, highlightthickness=0)
         self.history_box.pack(fill="both")
+        
+        # Toggle dark mode button
+        self.dark_mode_button = tk.Button(self.history_frame, text="Toggle Dark Mode", command=self.toggle_dark_mode, font=("Arial", 10), bg=self.current_button_bg, fg=self.current_fg)
+        self.dark_mode_button.pack(anchor="e", pady=(5, 10))
+        
+        # Buttons area
+        self.buttons_frame = tk.Frame(self.root, bg=self.current_bg)  # Match dark mode with background color
+        self.buttons_frame.pack(expand=True, fill="both", padx=10, pady=(0, 10))
+        
 
