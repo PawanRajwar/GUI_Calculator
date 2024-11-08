@@ -23,3 +23,9 @@ This makes it suitable for everyday calculations, while the code provides a soli
 
 - All components, including buttons, background, and margins, adapt to the selected mode for consistency.
 
+### 3. Calculation History:
+- A history section tracks previous calculations with results.
+
+- Users can review their recent calculations without having to re-enter expressions.
+
+- This feature is implemented using a list box widget that displays the history within the main application window.
