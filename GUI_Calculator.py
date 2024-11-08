@@ -65,5 +65,12 @@ class CalculatorApp:
             '0', '.', '(', ')',
             'C', 'Del', '=', '+'
         ]
+        row = 0
+        col = 0
+        for button in buttons:
+            if button == "C":
+                button_bg = self.clear_button_color  # Red for Clear
+            elif button == "=":
+                button_bg = self.equal_button_color  # Blue for Equal
         
 
