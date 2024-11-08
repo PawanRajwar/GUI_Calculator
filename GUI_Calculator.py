@@ -57,4 +57,13 @@ class CalculatorApp:
         self.buttons_frame = tk.Frame(self.root, bg=self.current_bg)  # Match dark mode with background color
         self.buttons_frame.pack(expand=True, fill="both", padx=10, pady=(0, 10))
         
+         # Define calculator buttons
+        buttons = [
+            '7', '8', '9', '/', 
+            '4', '5', '6', '*',
+            '1', '2', '3', '-',
+            '0', '.', '(', ')',
+            'C', 'Del', '=', '+'
+        ]
+        
 
