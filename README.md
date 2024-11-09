@@ -29,3 +29,10 @@ This makes it suitable for everyday calculations, while the code provides a soli
 - Users can review their recent calculations without having to re-enter expressions.
 
 - This feature is implemented using a list box widget that displays the history within the main application window.
+
+### 4. Special Buttons:
+- Clear Button (Red): Clears the entire expression.
+
+- Delete Button: Removes the last character of the current expression, allowing for easy corrections.
+
+- 
