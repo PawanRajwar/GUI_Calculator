@@ -83,4 +83,9 @@ class CalculatorApp:
                 col = 0
                 row += 1
         
+        # Make the buttons fill space evenly
+        for i in range(4):
+            self.buttons_frame.columnconfigure(i, weight=1)
+            self.buttons_frame.rowconfigure(i, weight=1)
+        
 
