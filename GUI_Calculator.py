@@ -75,5 +75,12 @@ class CalculatorApp:
             else:
                 button_bg = self.current_button_bg  # Default button color
             
+            command = lambda x=button: self.on_button_click(x)
+            tk.Button(self.buttons_frame, text=button, width=5, height=2, font=("Arial", 14),
+                      bg=button_bg, fg=self.button_fg, command=command).grid(row=row, column=col, padx=2, pady=2, sticky="nsew")
+            col += 1
+            if col > 3:
+                col = 0
+                row += 1
         
 
