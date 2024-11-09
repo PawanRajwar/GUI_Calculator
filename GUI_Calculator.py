@@ -72,5 +72,8 @@ class CalculatorApp:
                 button_bg = self.clear_button_color  # Red for Clear
             elif button == "=":
                 button_bg = self.equal_button_color  # Blue for Equal
+            else:
+                button_bg = self.current_button_bg  # Default button color
+            
         
 
