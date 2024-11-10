@@ -87,5 +87,12 @@ class CalculatorApp:
         for i in range(4):
             self.buttons_frame.columnconfigure(i, weight=1)
             self.buttons_frame.rowconfigure(i, weight=1)
-        
+    
+    def on_button_click(self, char):
+        if char == "=":
+            self.calculate()
+        elif char == "C":
+            self.clear_display()
+        elif char == "Del":
+            self.delete_last()   
 
