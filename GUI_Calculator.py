@@ -98,4 +98,12 @@ class CalculatorApp:
         else:
             self.expression += str(char)
             self.update_display()
+    
+    def calculate(self):
+        try:
+            result = eval(self.expression)
+            self.history.append(f"{self.expression} = {result}")
+            self.history_box.insert(tk.END, f"{self.expression} = {result}")
+            self.expression = str(result)
+            self.update_display()
 
