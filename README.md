@@ -36,3 +36,8 @@ This makes it suitable for everyday calculations, while the code provides a soli
 - Delete Button: Removes the last character of the current expression, allowing for easy corrections.
 
 - Equal Button (Blue): Computes the result and displays it instantly.
+
+### 5. Enhanced Layout:
+- The calculator’s buttons are arranged in a familiar layout, making it intuitive for any user.
+
+- Buttons have been color-coded to differentiate standard operations from special functions.
