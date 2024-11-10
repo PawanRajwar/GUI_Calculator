@@ -41,3 +41,10 @@ This makes it suitable for everyday calculations, while the code provides a soli
 - The calculator’s buttons are arranged in a familiar layout, making it intuitive for any user.
 
 - Buttons have been color-coded to differentiate standard operations from special functions.
+
+## User Interface
+
+The calculator’s layout consists of the following main sections:
+
+### 1. Display Frame:
+- Shows the current expression or result.
