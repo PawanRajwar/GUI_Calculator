@@ -95,4 +95,7 @@ class CalculatorApp:
             self.clear_display()
         elif char == "Del":
             self.delete_last()   
+        else:
+            self.expression += str(char)
+            self.update_display()
 
