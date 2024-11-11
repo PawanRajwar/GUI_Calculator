@@ -53,4 +53,7 @@ The calculator’s layout consists of the following main sections:
 
 - Automatically updates with every button press.
 
-###
+### 2. History Section:
+- Displays previous calculations with a scrollable list box, allowing users to track their recent operations.
+
+- Includes a label for clarity and is aligned with the calculator’s main body.
