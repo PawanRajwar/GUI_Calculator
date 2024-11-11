@@ -48,3 +48,9 @@ The calculator’s layout consists of the following main sections:
 
 ### 1. Display Frame:
 - Shows the current expression or result.
+
+- Positioned at the top, with a larger font size for clear readability.
+
+- Automatically updates with every button press.
+
+###
