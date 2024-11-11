@@ -106,4 +106,7 @@ class CalculatorApp:
             self.history_box.insert(tk.END, f"{self.expression} = {result}")
             self.expression = str(result)
             self.update_display()
-
+        except Exception:
+            self.expression = "Error"
+            self.update_display()
+            self.expression = ""
