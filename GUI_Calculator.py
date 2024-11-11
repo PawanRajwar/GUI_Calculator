@@ -110,3 +110,7 @@ class CalculatorApp:
             self.expression = "Error"
             self.update_display()
             self.expression = ""
+
+    def clear_display(self):
+        self.expression = ""
+        self.update_display()
