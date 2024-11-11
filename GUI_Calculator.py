@@ -114,3 +114,7 @@ class CalculatorApp:
     def clear_display(self):
         self.expression = ""
         self.update_display()
+        
+    def delete_last(self):
+        self.expression = self.expression[:-1]
+        self.update_display()    
