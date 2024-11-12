@@ -57,3 +57,8 @@ The calculator’s layout consists of the following main sections:
 - Displays previous calculations with a scrollable list box, allowing users to track their recent operations.
 
 - Includes a label for clarity and is aligned with the calculator’s main body.
+
+### 3. Dark Mode Button:
+- Located at the top right, allowing users to toggle dark mode.
+
+- Changes the colors of the entire interface, including the display, buttons, and background margins, for a cohesive look in both light and dark themes.
