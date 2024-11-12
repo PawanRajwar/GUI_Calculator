@@ -62,3 +62,18 @@ The calculator’s layout consists of the following main sections:
 - Located at the top right, allowing users to toggle dark mode.
 
 - Changes the colors of the entire interface, including the display, buttons, and background margins, for a cohesive look in both light and dark themes.
+
+### 4. Button Grid:
+- Each calculator function and operation is mapped to a button arranged in a grid.
+
+- Buttons are evenly spaced with appropriate padding to maintain a clean appearance.
+
+- Buttons dynamically change color based on the selected mode, ensuring consistent styling.
+
+
+
+
+
+
+
+
