@@ -125,3 +125,16 @@ class CalculatorApp:
     def toggle_dark_mode(self):
         # Toggle dark mode state
         self.dark_mode = not self.dark_mode
+        
+        
+        # Set colors based on mode
+        if self.dark_mode:
+            self.current_bg = self.dark_bg
+            self.current_fg = self.dark_fg
+            self.current_button_bg = self.button_bg_dark
+            self.button_fg = self.dark_fg
+        else:
+            self.current_bg = self.light_bg
+            self.current_fg = self.light_fg
+            self.current_button_bg = self.button_bg_light
+            self.button_fg = self.light_fg
