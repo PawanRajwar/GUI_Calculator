@@ -117,4 +117,11 @@ class CalculatorApp:
         
     def delete_last(self):
         self.expression = self.expression[:-1]
-        self.update_display()    
+        self.update_display()  
+    
+    def update_display(self):
+        self.display.config(text=self.expression)
+        
+    def toggle_dark_mode(self):
+        # Toggle dark mode state
+        self.dark_mode = not self.dark_mode
