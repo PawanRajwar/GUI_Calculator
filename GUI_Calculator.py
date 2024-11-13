@@ -145,3 +145,7 @@ class CalculatorApp:
         self.display_frame.config(bg=self.current_bg)
         self.display.config(bg=self.current_bg, fg=self.current_fg)
         self.history_frame.config(bg=self.current_bg)
+        self.history_label.config(bg=self.current_bg, fg=self.current_fg)
+        self.history_box.config(bg=self.current_bg, fg=self.current_fg)
+        self.dark_mode_button.config(bg=self.current_button_bg, fg=self.current_fg)
+        
