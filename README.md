@@ -70,7 +70,12 @@ The calculator’s layout consists of the following main sections:
 
 - Buttons dynamically change color based on the selected mode, ensuring consistent styling.
 
+## Code Structure
 
+### 1. Initialization:
+- The calculator application is instantiated by creating a CalculatorApp class, which initializes variables and defines color schemes.
+
+- Sets up the layout by calling create_widgets() method, defining a layout with frames, labels, and buttons.
 
 
 
