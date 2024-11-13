@@ -77,6 +77,11 @@ The calculator’s layout consists of the following main sections:
 
 - Sets up the layout by calling create_widgets() method, defining a layout with frames, labels, and buttons.
 
+### 2. Mode Toggling:
+- A function toggle_dark_mode manages switching between light and dark modes.
+
+- Dynamically changes the background and foreground colors of all elements, ensuring that all components reflect the selected theme.
+
 
 
 
