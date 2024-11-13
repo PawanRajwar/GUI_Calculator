@@ -138,3 +138,10 @@ class CalculatorApp:
             self.current_fg = self.light_fg
             self.current_button_bg = self.button_bg_light
             self.button_fg = self.light_fg
+            
+            
+        # Update colors for all components
+        self.root.config(bg=self.current_bg)
+        self.display_frame.config(bg=self.current_bg)
+        self.display.config(bg=self.current_bg, fg=self.current_fg)
+        self.history_frame.config(bg=self.current_bg)
