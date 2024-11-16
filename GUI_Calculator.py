@@ -149,3 +149,5 @@ class CalculatorApp:
         self.history_box.config(bg=self.current_bg, fg=self.current_fg)
         self.dark_mode_button.config(bg=self.current_button_bg, fg=self.current_fg)
         
+        # Update buttons frame background for dark mode
+        self.buttons_frame.config(bg=self.current_bg)
