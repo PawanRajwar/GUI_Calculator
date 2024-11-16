@@ -151,3 +151,12 @@ class CalculatorApp:
         
         # Update buttons frame background for dark mode
         self.buttons_frame.config(bg=self.current_bg)
+        
+        # Update all calculator buttons
+        for widget in self.buttons_frame.winfo_children():
+            button_text = widget.cget("text")
+            if button_text == "C":
+                widget.config(bg=self.clear_button_color, fg=self.button_fg)
+            elif button_text == "=":
+                widget.config(bg=self.equal_button_color, fg=self.button_fg)
+            else:
