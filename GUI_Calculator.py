@@ -160,3 +160,5 @@ class CalculatorApp:
             elif button_text == "=":
                 widget.config(bg=self.equal_button_color, fg=self.button_fg)
             else:
+                 widget.config(bg=self.current_button_bg, fg=self.button_fg)
+    
