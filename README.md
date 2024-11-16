@@ -82,8 +82,10 @@ The calculator’s layout consists of the following main sections:
 
 - Dynamically changes the background and foreground colors of all elements, ensuring that all components reflect the selected theme.
 
+### 3. Event Handling:
+- Buttons are assigned command functions for interactive operations.
 
-
+- The on_button_click() method handles button presses, updating the display or performing the desired operation.
 
 
 
