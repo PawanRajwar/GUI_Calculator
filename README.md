@@ -92,5 +92,11 @@ The calculator’s layout consists of the following main sections:
 
 - Results are stored in the history list and displayed in the history box, enhancing functionality and usability.
 
+### 5. Error Handling:
+- If an invalid expression is entered, the application catches exceptions and displays an “Error” message.
+
+- Ensures a smooth user experience by preventing unexpected crashes or bugs.
+
+
 
 
