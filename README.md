@@ -87,5 +87,10 @@ The calculator’s layout consists of the following main sections:
 
 - The on_button_click() method handles button presses, updating the display or performing the desired operation.
 
+### 4. Expression Evaluation:
+- The calculate() method uses Python’s eval() function to evaluate the mathematical expression.
+
+- Results are stored in the history list and displayed in the history box, enhancing functionality and usability.
+
 
 
