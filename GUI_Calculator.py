@@ -162,3 +162,11 @@ class CalculatorApp:
             else:
                  widget.config(bg=self.current_button_bg, fg=self.button_fg)
     
+    
+    def run(self):
+        self.root.mainloop()
+
+# Create the main window
+root = tk.Tk()
+app = CalculatorApp(root)
+app.run()
