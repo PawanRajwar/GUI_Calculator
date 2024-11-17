@@ -98,5 +98,9 @@ The calculator’s layout consists of the following main sections:
 - Ensures a smooth user experience by preventing unexpected crashes or bugs.
 
 
+## Usage
 
+### 1. Basic Usage:
+- Open the application and start entering numbers and operators.
 
+- Use the = button to compute the result and view it in the display area.
