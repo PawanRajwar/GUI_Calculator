@@ -104,3 +104,7 @@ The calculator’s layout consists of the following main sections:
 - Open the application and start entering numbers and operators.
 
 - Use the = button to compute the result and view it in the display area.
+
+- Press C to clear the current expression or Del to delete the last character.
+
+### 2. Dark Mode:
