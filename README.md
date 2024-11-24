@@ -108,3 +108,11 @@ The calculator’s layout consists of the following main sections:
 - Press C to clear the current expression or Del to delete the last character.
 
 ### 2. Dark Mode:
+- Toggle dark mode by clicking the "Toggle Dark Mode" button at the top right.
+
+- Dark mode applies a black background and adapts all UI elements for improved contrast and visibility in low-light settings.
+
+### 3. History Tracking:
+- Review recent calculations in the history box.
+
+- The history list will show each expression along with its result, helping users track their calculations over a session.
