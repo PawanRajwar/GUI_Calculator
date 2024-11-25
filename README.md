@@ -1,128 +1,109 @@
-# Advanced Calculator - GUI Application with Dark Mode and History Feature
+Here’s your updated **README** file formatted beautifully for GitHub, complete with emojis for each section to enhance readability and aesthetics:
 
-## Project Overview
+---
 
-This project is an Advanced GUI Calculator built with Python’s tkinter library, designed to provide a simple and user-friendly interface for 
-performing basic arithmetic calculations. In addition to standard calculator functions, this application offers Dark Mode and History Tracking 
-features to enhance usability and accessibility.
+# **📱 Advanced Calculator - GUI Application with Dark Mode and History Feature**
 
-The GUI design prioritizes simplicity and ease of use, with carefully selected color schemes and intuitive button layout.
-This makes it suitable for everyday calculations, while the code provides a solid example of using tkinter to create customizable applications with advanced features.
+---
 
-## Features
+## **👨‍🏫 Submitted To**  
+**Dr. Prateek Raj Gautam**
 
-### 1. Basic Calculator Functions:
-- Supports fundamental operations: addition, subtraction, multiplication, and division.
+---
 
-- Also includes support for decimal points and parentheses for more complex calculations.
+## **👨‍🎓 Submitted By**  
+- **Name**: Pawan Singh Rajwar  
+- **SAP ID**: 590017545  
 
-### 2. Dark Mode Toggle:
-- A toggle button allows users to switch between light and dark modes.
+---
 
-- Dark mode provides a pure black background for a comfortable, eye-friendly experience in low-light environments.
+## **📄 Project Title**  
+**Advanced Calculator - GUI Application**
 
-- All components, including buttons, background, and margins, adapt to the selected mode for consistency.
+---
 
-### 3. Calculation History:
-- A history section tracks previous calculations with results.
+## **📖 Description**  
+This project is an **Advanced GUI Calculator** built with Python’s `tkinter` library. It provides a simple yet user-friendly interface for basic arithmetic operations and includes advanced features like **Dark Mode** and **History Tracking**. The calculator is designed with an intuitive layout, making it accessible for everyday calculations while showcasing the versatility of GUI programming with Python.
 
-- Users can review their recent calculations without having to re-enter expressions.
+---
 
-- This feature is implemented using a list box widget that displays the history within the main application window.
+## **✨ Features**
+### 🧮 **Basic Calculator Functions**:
+- Perform basic arithmetic operations like **addition**, **subtraction**, **multiplication**, and **division**.
+- Support for decimal points and parentheses for complex expressions.
 
-### 4. Special Buttons:
-- Clear Button (Red): Clears the entire expression.
+### 🌙 **Dark Mode**:
+- Toggle button for switching between **light** and **dark** modes.
+- A pure black background in dark mode ensures a comfortable, eye-friendly experience.
 
-- Delete Button: Removes the last character of the current expression, allowing for easy corrections.
+### 📜 **Calculation History**:
+- Tracks and displays previous calculations along with results.
+- Review past operations using a **scrollable history list** integrated into the application.
 
-- Equal Button (Blue): Computes the result and displays it instantly.
+### 🎨 **Enhanced Layout**:
+- Buttons are arranged in a familiar grid layout for easy access.
+- Clear differentiation between standard operations and special functions like **Clear (C)** and **Delete (Del)**.
 
-### 5. Enhanced Layout:
-- The calculator’s buttons are arranged in a familiar layout, making it intuitive for any user.
+---
 
-- Buttons have been color-coded to differentiate standard operations from special functions.
+## **🔧 Installation**
+### Clone the repository:
+```bash
+git clone https://github.com/your-repo-link/advanced-calculator.git
+cd advanced-calculator
+```
+### Run the application:
+Ensure you have Python 3.x installed. Then, run:
+```bash
+python advanced_calculator.py
+```
 
-## User Interface
+---
 
-The calculator’s layout consists of the following main sections:
+## **🛠️ Libraries Used**
+1. **`tkinter`**: For creating the graphical user interface.
+2. **`eval()`**: Python’s built-in function for evaluating mathematical expressions.
+3. **`random`**: Utilized for other potential future enhancements.
+4. **`os`**: For system-specific interactions (if applicable).
 
-### 1. Display Frame:
-- Shows the current expression or result.
+---
 
-- Positioned at the top, with a larger font size for clear readability.
+## **📚 Usage**
+1. **Start the Application**:
+   - Launch the calculator by running the Python script.
+   - The display will show the current expression or the result.
 
-- Automatically updates with every button press.
+2. **Perform Calculations**:
+   - Enter numbers and operators using the calculator buttons.
+   - Click **=** to evaluate and display the result.
 
-### 2. History Section:
-- Displays previous calculations with a scrollable list box, allowing users to track their recent operations.
+3. **Clear or Delete**:
+   - Use **C** to clear the expression.
+   - Use **Del** to remove the last character for corrections.
 
-- Includes a label for clarity and is aligned with the calculator’s main body.
+4. **Toggle Dark Mode**:
+   - Switch to dark mode by clicking the **Dark Mode Toggle** button in the top-right corner.
 
-### 3. Dark Mode Button:
-- Located at the top right, allowing users to toggle dark mode.
+5. **Review History**:
+   - Check recent calculations in the **History Box** to recall past operations.
 
-- Changes the colors of the entire interface, including the display, buttons, and background margins, for a cohesive look in both light and dark themes.
+---
 
-### 4. Button Grid:
-- Each calculator function and operation is mapped to a button arranged in a grid.
+## **📸 Screenshots**
+### 🌟 **Light Mode**
+![Light Mode Screenshot](<Screenshot 2024-11-25 122511-1.png>)
 
-- Buttons are evenly spaced with appropriate padding to maintain a clean appearance.
+### ⚡ **Showing Functionality**
+![Functionality Screenshot](<Screenshot 2024-11-25 122523-1.png>)
 
-- Buttons dynamically change color based on the selected mode, ensuring consistent styling.
+### 🌑 **Dark Mode**
+![Dark Mode Screenshot](<Screenshot 2024-11-25 122537-1.png>)
 
-## Code Structure
+---
 
-### 1. Initialization:
-- The calculator application is instantiated by creating a CalculatorApp class, which initializes variables and defines color schemes.
+## **🖌️ Acknowledgments**
+Special thanks to **Dr. Prateek Raj Gautam** for the guidance and inspiration behind this project.  
 
-- Sets up the layout by calling create_widgets() method, defining a layout with frames, labels, and buttons.
+---
 
-### 2. Mode Toggling:
-- A function toggle_dark_mode manages switching between light and dark modes.
-
-- Dynamically changes the background and foreground colors of all elements, ensuring that all components reflect the selected theme.
-
-### 3. Event Handling:
-- Buttons are assigned command functions for interactive operations.
-
-- The on_button_click() method handles button presses, updating the display or performing the desired operation.
-
-### 4. Expression Evaluation:
-- The calculate() method uses Python’s eval() function to evaluate the mathematical expression.
-
-- Results are stored in the history list and displayed in the history box, enhancing functionality and usability.
-
-### 5. Error Handling:
-- If an invalid expression is entered, the application catches exceptions and displays an “Error” message.
-
-- Ensures a smooth user experience by preventing unexpected crashes or bugs.
-
-
-## Usage
-
-### 1. Basic Usage:
-- Open the application and start entering numbers and operators.
-
-- Use the = button to compute the result and view it in the display area.
-
-- Press C to clear the current expression or Del to delete the last character.
-
-### 2. Dark Mode:
-- Toggle dark mode by clicking the "Toggle Dark Mode" button at the top right.
-
-- Dark mode applies a black background and adapts all UI elements for improved contrast and visibility in low-light settings.
-
-### 3. History Tracking:
-- Review recent calculations in the history box.
-
-- The history list will show each expression along with its result, helping users track their calculations over a session.
-
-## Screenshots
-- Light Mode Screenshot:
-![alt text](<Screenshot 2024-11-25 122511-1.png>)
-
-- Showing Functionality :
-![alt text](<Screenshot 2024-11-25 122523-1.png>)
-
-- Dark Mode Screenshot:
-![alt text](<Screenshot 2024-11-25 122537-1.png>)
+This **README** file not only provides detailed project documentation but also visually organizes the content to make it more engaging and easy to read on GitHub. Feel free to replace placeholder links and adjust the formatting as needed!
