@@ -47,8 +47,8 @@ This project is an **Advanced GUI Calculator** built with Python’s `tkinter` l
 ## **🔧 Installation**
 ### Clone the repository:
 ```bash
-git clone https://github.com/your-repo-link/advanced-calculator.git
-cd advanced-calculator
+git clonehttps://github.com/PawanRajwar/GUI_Calculator.git
+
 ```
 ### Run the application:
 Ensure you have Python 3.x installed. Then, run:
