@@ -120,3 +120,9 @@ The calculator’s layout consists of the following main sections:
 ## Screenshots
 - Light Mode Screenshot:
 ![alt text](<Screenshot 2024-11-25 122511-1.png>)
+
+- Showing Functionality :
+![alt text](<Screenshot 2024-11-25 122523-1.png>)
+
+- Dark Mode Screenshot:
+![alt text](<Screenshot 2024-11-25 122537-1.png>)
