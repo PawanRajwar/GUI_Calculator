@@ -116,3 +116,7 @@ The calculator’s layout consists of the following main sections:
 - Review recent calculations in the history box.
 
 - The history list will show each expression along with its result, helping users track their calculations over a session.
+
+## Screenshots
+- Light Mode Screenshot:
+![alt text](<Screenshot 2024-11-25 122511-1.png>)
