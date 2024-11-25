@@ -1,7 +1,5 @@
 
 
----
-
 # **📱 Advanced Calculator - GUI Application with Dark Mode and History Feature**
 
 ---
@@ -99,11 +97,3 @@ python advanced_calculator.py
 ### 🌑 **Dark Mode**
 ![Dark Mode Screenshot](<Screenshot 2024-11-25 122537-1.png>)
 
----
-
-## **🖌️ Acknowledgments**
-Special thanks to **Dr. Prateek Raj Gautam** for the guidance and inspiration behind this project.  
-
----
-
-This **README** file not only provides detailed project documentation but also visually organizes the content to make it more engaging and easy to read on GitHub. Feel free to replace placeholder links and adjust the formatting as needed!
